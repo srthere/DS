@@ -8,6 +8,7 @@ int main()
     vector<int>v(n);
     for(int i=0;i<n;i++)
       cin>>v[i];
+    sort(v.begin(),v.end());  
       do
       {
          for(int i=0;i<n;i++)

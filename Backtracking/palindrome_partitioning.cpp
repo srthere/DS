@@ -5,6 +5,7 @@ void show(string str,vector<string>v)
 {
     for(int i=1;i<=str.size();i++)
     {
+    //    cout<<"m"<<" ";
         string pre=str.substr(0,i);
         string k=pre;
         reverse(pre.begin(),pre.end());
@@ -16,6 +17,7 @@ void show(string str,vector<string>v)
                   ans.push_back(v);
                   return;
               }
+
             show(str.substr(i,str.size()-i),v);
             v.pop_back();
         }

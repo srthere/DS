@@ -50,7 +50,8 @@ bool backtracking(vector<vector<string> >& board, int col, vector<vector<string>
     }
     return false;
 }
-vector<vector<string> > solveNQueens(int A) {
+vector<vector<string> > solveNQueens(int A)
+{
     vector<vector<string> > testboard;
 
     if (A==2 || A==3)
