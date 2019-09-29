@@ -17,4 +17,3 @@ int main()
    }
    cout<<ans[r];
 }
-
